@@ -62,8 +62,11 @@ converters wrap one of these.
 | Project | Language | What it does | License note |
 | --- | --- | --- | --- |
 | [spotify/basic-pitch](https://github.com/spotify/basic-pitch) | Python | Instrument-agnostic transcription, MIDI out. The de-facto baseline. | Apache-2.0 |
+| [magenta/mt3](https://github.com/magenta/mt3) | Python | Multi-task multitrack music transcription via sequence-to-sequence Transformer | Apache-2.0 |
+| [qiuqiangkong/piano_transcription_inference](https://github.com/qiuqiangkong/piano_transcription_inference) | Python | High-resolution piano transcription with note and sustain pedal detection | MIT |
 | [DamRsn/NeuralNote](https://github.com/DamRsn/NeuralNote) | C++ / JUCE | Basic Pitch as a VST3/AU/standalone plugin, with MIDI editing | See repo |
 | [magenta/onsets_frames_transcription](https://github.com/magenta/magenta/tree/master/magenta/models/onsets_frames_transcription) | Python | Piano and drums, strong on onset detection | Apache-2.0 |
+| [marl/crepe](https://github.com/marl/crepe) | Python | Monophonic pitch tracking model based on deep CNN; high-precision f0 tracking | MIT |
 | [Omnizart](https://music-and-culture-technology-lab.github.io/omnizart-doc/) | Python | Multi-instrument transcription suite (piano, drums, vocal, chord) | MIT (see repo) |
 | [sonic-visualiser/tony](https://github.com/sonic-visualiser/tony) | C++ | Melody transcription, tightly integrated with Sonic Visualiser | GPL |
 | [justinsalamon/audio_to_midi_melodia](https://github.com/justinsalamon/audio_to_midi_melodia) | Python | Melody extraction to MIDI | See repo |
@@ -102,6 +105,7 @@ buying a dedicated tool:
 ## Plugins
 
 - [NeuralNote](https://github.com/DamRsn/NeuralNote) — VST3/AU/standalone, Basic Pitch inside, with piano-roll editing. Open source and free.
+- [Dodo MIDI](https://dodobirdmusic.com/dodo-midi/) — Audio-to-MIDI pitch tracker and envelope follower plugin (VST/AU), for monophonic voice and instrument input. Free.
 
 ## Audio to sheet music
 
@@ -117,6 +121,7 @@ does not contain.
 
 Transcription quality jumps if you separate first.
 
+- [Demucs](https://github.com/facebookresearch/demucs) — state-of-the-art music source separation (vocals, drums, bass, other) by Meta Research.
 - [Spleeter](https://github.com/deezer/spleeter) — stem separation (vocals/drums/bass/other).
 - [Musisep](https://github.com/rgcda/Musisep) — source separation.
 - [MuseScore](https://musescore.org/) — open-source notation editor; opens MusicXML and MIDI.
